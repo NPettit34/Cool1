@@ -1,0 +1,13 @@
+#!/bin/bash
+  echo "Greetings people of Transylvania!"
+  sleep 1.5
+
+  echo "Are you ready to begin counting? Here we go:"
+
+  for i in {1..50}
+  do
+    echo "$i Ha, Ha, Ha..."
+    sleep 1
+  done
+
+echo "Congratulations, you counted all the way to 50. See you soon!"
